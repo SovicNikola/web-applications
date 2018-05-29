@@ -1,0 +1,39 @@
+
+h1 {
+    display: inline;
+    float:left;
+    /* margin: 0 0 0 30px; */
+}
+
+.input{
+    margin: 60px 30px 0 0 ;
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 700px;
+    
+}
+#inputs {
+    width: 200px;
+}
+#main {
+    overflow: hidden;
+    display: table;
+}
+.img {
+    width: 100%;
+    display: block;
+    float:left;
+    
+
+}
+
+div {
+width: 30%;
+display: inline-block;
+
+}
+
+#button {
+float: right;
+
+}
