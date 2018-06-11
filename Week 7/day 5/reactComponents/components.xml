@@ -1,0 +1,28 @@
+<app>
+    <header> </header>
+    <content>
+        <sidebar>
+        </sidebar>
+        <searchResult>
+        <topRecommended>
+        <trending>
+        <trendingHeader></trendingHeader>
+        <trendingFeed></trendingFeed>
+         </trending>
+        <recommended></recommended>
+        </topRecommended>
+        <channelsList>
+        <chanelListItem>
+        <chanelListItemHeader></chanelListItemHeader>
+        <chanelListItemFeeds>
+        <video></video>
+        <title></title>
+        <description></description>
+        </chanelListItemFeeds>
+
+        </chanelListItem>
+        </channelsList>
+        </searchResult>
+        
+    </content>
+</app>

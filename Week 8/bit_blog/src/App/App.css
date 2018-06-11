@@ -1,0 +1,309 @@
+.backColor{
+  padding: 0;
+  background-color: rgba(200, 239, 255, 0.15)
+}
+a, a:hover{
+  text-decoration: none;
+  color: rgb(34, 34, 34)
+}
+
+
+/* header */
+header{
+  background-color: rgb(176, 211, 243);
+  height: 120px;
+  display: table
+}
+#header{
+  
+  display: table-cell;
+  vertical-align: middle
+}
+
+#header div{
+  text-decoration: none;
+  color: #222;
+  height: 30px;
+  margin: 0 25px;
+}
+#header div:nth-of-type(2){
+  border-left: 3px solid black;
+  border-right: 3px solid black;
+  padding: 0 25px;
+
+  
+}
+#header_span{
+float: left;
+font-weight: 800;
+font-size: 30px;
+margin-left: 35px
+}
+
+
+/* footer */
+
+
+#footer{
+  margin-top: 30px;
+  text-align: center;
+  background-color: rgb(183, 218, 252);
+  height: 40px;
+  line-height: 40px;
+  
+}
+
+
+
+/* home page */
+
+
+
+#poste_home{
+  
+  margin-top: 25px;
+  text-align: center;
+}
+.post{
+  margin: 20px 0;
+  border-bottom: 1px solid gray;
+  height: 150px;
+  display: table
+}
+.vertical{
+  display: table-cell;
+  vertical-align: middle;
+  
+}
+div.post:nth-of-type(odd) {
+  background-color: rgba(117, 190, 255, 0.055)
+}
+.vertical p {
+  text-indent: 30px;
+}
+#new-post{
+  margin: 20px;
+  font-size: 20px;
+  display: inline-block;
+  height: 35px;
+  line-height: 35px;
+  width: 100px;
+  background-color: rgba(112, 159, 204, 0.411);
+  text-align: center;
+  -webkit-transition: background-color 2s ease-out;
+-moz-transition: background-color 2s ease-out;
+-o-transition: background-color 2s ease-out;
+transition: background-color 2s ease-out;
+}
+
+
+
+#new-post:hover {
+background-color: rgb(13, 16, 231);
+
+}
+/* single post page */
+
+.single_page_h{
+  margin-top: 90px;
+  font-size: 30px;
+  text-align: center;
+  display: block;
+  font-weight: 600 
+  
+}
+.single_author_link, .single_author_link:hover{
+  font-size: 25px;
+ 
+}
+#sp_span {
+  text-align: center;
+  display: inline-block;
+  margin: 30px;
+}
+.spP{
+  text-align: left;
+  margin-bottom: 60px;
+  padding-bottom: 40px;
+  
+}
+hr{
+  border: none;
+  height: 2px;
+  margin: 0 auto;
+  width: 85%; 
+  background-color: rgba(36, 36, 36, 0.815); 
+}
+#navToHome{
+  margin: 30px;
+  font-size: 20px;
+  font-weight: 600;
+  display: inline-block;
+  height: 35px;
+  line-height: 35px;
+  width: 100px;
+  background-color: rgba(98, 176, 248, 0.411);
+  text-align: center;
+
+}
+#more-links{
+  padding: 20px;
+  margin-bottom: 100px;
+}
+.single-post{
+  padding-top: 20px;
+  margin-left: 50px;
+}
+
+
+/* Authors Page */
+
+#authors-header{
+  text-align: center;
+  font-weight: 800;
+  font-size: 24px;
+  display: block;
+  margin-top: 60px;
+}
+
+/* single author page */
+
+.author{
+  height: 90px;
+  border-bottom: 2px solid gray;
+  padding-top:26px;
+  font-size: 27px;
+}
+#allAuthor_link{
+  margin: 30px;
+  font-size: 20px;
+  display: inline-block;
+  height: 35px;
+  line-height: 35px;
+  width: 100px;
+  background-color: rgba(98, 176, 248, 0.411);
+  text-align: center;
+}
+
+
+
+#allAuthor_link{
+  margin: 20px;
+  display: block;
+}
+.author-img{
+  height: 200px;
+
+}
+.author-info, .author-info-name{
+  font-size: 19px;
+  font-weight: 250;
+} 
+
+.author-info-name {
+  color:rgb(47, 59, 238);
+  margin-top: 33px;
+  font-size: 33px;
+  font-weight: 700;
+}
+.company-data{
+  height: 200px;
+}
+.company-data>h3{
+  margin:50px 0 30px 0;;
+  font-size: 30px;
+  font-weight: 700;
+}
+.author-address{
+  display: table;
+}
+.author-address>h3 {
+  margin:10px 0 30px 0;;
+  font-size: 30px;
+  font-weight: 700;
+  
+}
+
+/* new post page */
+.new-post-h{
+  
+  text-align: center;
+  margin:30px 0 30px 0;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.label{
+  margin: 60px 15px 30px 10px;
+  display: block;
+  font-weight: 500;
+  
+}
+.btn{
+   margin-left: 20px;
+margin-top: 30px;
+   
+}
+.btn{
+  color:white;
+  background-color: rgb(29, 5, 116);
+}
+
+.new-post-h {
+  font-size: 23px;
+  
+}
+.error{
+  color: rgb(255, 0, 0);
+  font-size: 30px
+}
+
+/* about */
+
+.about > h2{
+margin: 30px 0;
+}
+
+/* animation */
+
+.spinner {
+  margin: 100px auto 0;
+  width: 60px;
+  text-align: center;
+}
+
+.spinner > div {
+  width: 18px;
+  height: 18px;
+  background-color: rgb(0, 0, 255);
+
+  border-radius: 100%;
+  display: inline-block;
+  -webkit-animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+  animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+}
+
+.spinner .bounce1 {
+  -webkit-animation-delay: -0.32s;
+  animation-delay: -0.32s;
+}
+
+.spinner .bounce2 {
+  -webkit-animation-delay: -0.16s;
+  animation-delay: -0.16s;
+}
+
+@-webkit-keyframes sk-bouncedelay {
+  0%, 80%, 100% { -webkit-transform: scale(0) }
+  40% { -webkit-transform: scale(1.0) }
+}
+
+@keyframes sk-bouncedelay {
+  0%, 80%, 100% { 
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  } 40% { 
+    -webkit-transform: scale(1.0);
+    transform: scale(1.0);
+  }
+}

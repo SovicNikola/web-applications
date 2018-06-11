@@ -1,0 +1,70 @@
+.card {
+  display: inline-block;
+  margin-top: 10px;
+  margin-right: 10px;
+  width: 32%; }
+
+.card-text {
+  text-align: center;
+  font-size: 120%; }
+
+.card-body {
+  padding: 10px; }
+
+.footer {
+  color: white;
+  text-align: center;
+  height: 50px;
+  line-height: 50px; }
+
+h2 {
+  text-align: center;
+  margin-top: 15px; }
+
+#searchDisplay {
+  position: absolute;
+  top: 4vh;
+  right: 22vw;
+  z-index: 1;
+  background-color: white;
+  overflow: hidden;
+  width: 178px; }
+
+.searchResult {
+  border-bottom: 1px solid gray; }
+
+.search {
+  overflow: hidden;
+  position: relative; }
+
+.display {
+  display: none; }
+
+img {
+  transition: transform 0.5s; }
+
+.card-img-top:hover {
+  transform: scale(1.03); }
+
+#singleTitle {
+  padding-right: 15px; }
+
+a,
+a:hover {
+  text-decoration: none;
+  color: black; }
+
+.imgCrew {
+  height: 50px; }
+
+.widthName {
+  width: 250px;
+  display: inline-block; }
+
+.linkSearch {
+  display: block; }
+
+#h3-title {
+  text-align: center; }
+
+/*# sourceMappingURL=style.css.map */
